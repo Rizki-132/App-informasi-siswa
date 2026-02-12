@@ -18,7 +18,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css2/style.css">
 
-    <title>Login #2</title>
+    <title>Poltek-Login </title>
   </head>
   <body>
   
@@ -61,7 +61,6 @@
               </div>
 
                 <input type="submit" value="Log In" class="btn btn-block btn-primary">
-                <a href="{{ route('register') }}" class="btn btn-primary">Register</a>
             </form>
           </div>
         </div>
