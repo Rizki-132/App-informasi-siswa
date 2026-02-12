@@ -32,7 +32,7 @@
           <div class="col-md-7">
             <h3>Login Sebagai Admin <strong>Politeknik Mardira Indonesia</strong></h3>
             <p class="mb-4">Kampus Teknik Pertama Di Majalengka</p>
-            <form method="POST" action="{{ route('login') }}">
+            <form method="POST" action="{{ route('admin.login') }}">
               @csrf
               <div class="form-group first">
                 <label for="username">Email</label>
